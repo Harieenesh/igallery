@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div class="container">
+      <div class="gallery">
+        <img class="preview" src="1.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="2.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="3.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">      
+        <img class="preview"  src="4.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="5.jpeg" onmouseover="upDate(this)" onmouseout="unDo()">
+      </div>
+      <div id="image">"Hover an image below to display here"</div>
+    </div>
+  </body>
+  
+<script src="indec.js"></script>
+
+</html>
